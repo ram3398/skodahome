@@ -42,7 +42,7 @@ function VCarousel(props) {
     const [loading, setLoading] = useState(true);
   
     const fetchproduct = async () => {
-      const resp = await fetch(`http://ravi1111.pythonanywhere.com/products/${id}`, {
+      const resp = await fetch(`https://ravi1111.pythonanywhere.com/products/${id}`, {
         method: "GET",
       });
       console.log("resp");
@@ -82,7 +82,7 @@ function VCarousel(props) {
                                 </div>
                                 {images.map((e, i) => (
                                     <div className="mt-5" key={i}>
-                                        <img className="small-image w-100" src={'http://ravi1111.pythonanywhere.com/media/' + e} alt="small" />
+                                        <img className="small-image w-100" src={'https://ravi1111.pythonanywhere.com/media/' + e} alt="small" />
                                     </div>
                                 ))}
                                 <div
@@ -99,7 +99,7 @@ function VCarousel(props) {
                             <div className="flex gap-6 my-5">
 
                                 <div className="image" style={{height:'400px'}}>
-                                    <img className="big-image img-fluid h-100"  src={'http://ravi1111.pythonanywhere.com/media/' + images[current]} alt="sofa" />
+                                    <img className="big-image img-fluid h-100"  src={'https://ravi1111.pythonanywhere.com/media/' + images[current]} alt="sofa" />
                                 </div>
                             </div>
                         </Col>
