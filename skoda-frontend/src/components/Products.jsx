@@ -20,7 +20,7 @@ function Products() {
     const [loading, setLoading] = useState(false);
     const [products, setProducts] = useState([]);
     const fetchProducts = async () => {
-        const resp = await fetch("http://ravi1111.pythonanywhere.com/products/", {
+        const resp = await fetch("https://ravi1111.pythonanywhere.com/products/", {
             method: "GET",
         });
         const data = await resp.json();
