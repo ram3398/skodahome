@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import image19 from '../assets/images/image19.jpeg'
+import image13 from '../assets/images/image13.jpeg'
 function Timber() {
     return (
         <div>
@@ -42,7 +42,7 @@ function Timber() {
                 <a href='/contact' className='btn btn-secondary'>Join Now</a>
                 <Row xs={1} md={2} className='my-5'>
                     <Col className=' m-0 p-0'>
-                        <img width={'100%'} height={'500px'} src={image19} alt="" />
+                        <img width={'100%'} height={'500px'} src={image13} alt="" />
                     </Col>
                     <Col className='bg-dark text-start text-white p-5 m-0'>
                         <div className="our text-start mb-4">Our Design For Your Lifestyle</div>
