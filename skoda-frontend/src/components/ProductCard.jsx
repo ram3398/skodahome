@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 
 function ProductCard(props) {
     const [hover,setHover]=useState(false)
-    const backgroundImage="http://ravi1111.pythonanywhere.com/media/" +props.product.mainImage
+    const backgroundImage="https://ravi1111.pythonanywhere.com/media/" +props.product.mainImage
     return (
         <Col className='my-5'>
             <Card className='border border-0'>
                 <div onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
                 {hover?<div style={{height:'250px', backgroundImage:`url(${backgroundImage})`,backgroundSize:'cover' ,backgroundPosition:'center center',opacity:'0.7'}} className='p-5'>
                     <a className='btn btn-dark py-auto mt-5' href={'/products/' +props.product.id}>Know More</a>
-                </div>:<Card.Img variant="top" src={'http://ravi1111.pythonanywhere.com/media/' + props.product.mainImage} height={'250px'} />}
+                </div>:<Card.Img variant="top" src={'https://ravi1111.pythonanywhere.com/media/' + props.product.mainImage} height={'250px'} />}
                 </div>
                 <Card.Body>
                     <Card.Title className='mt-2'>
