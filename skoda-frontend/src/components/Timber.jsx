@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import image19 from '../assets/images/image19.png'
+import image19 from '../assets/images/image19.jpeg'
 function Timber() {
     return (
         <div>
