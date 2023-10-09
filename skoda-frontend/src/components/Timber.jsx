@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import image19 from '../assets/images/image19.png'
 function Timber() {
     return (
         <div>
@@ -41,7 +42,7 @@ function Timber() {
                 <a href='/contact' className='btn btn-secondary'>Join Now</a>
                 <Row xs={1} md={2} className='my-5'>
                     <Col className=' m-0 p-0'>
-                        <img width={'100%'} height={'500px'} src="https://s3-alpha-sig.figma.com/img/018b/948f/2cbabfe7b00e0f3318fe4ab61a54098e?Expires=1696809600&Signature=ODHbXu44H9mtrd9u-V7DEfrN4qncBhEj454kymSjxNdOl-FG5EZZk1tqYQBqFdlO5c5Qw60C7o6mG4Aq6BVazbWAZhfZcnD-cKNGsCy1B808pln0zLcnb-piEdOUmaALx4Bz2bOODxrCTslyWMcc2~~UNXyIzdncjy0GL6vcEHGLfKDnEVQylDp7vhzXq0S2~3vYvTnTQaCl2qvepHNkkymFsrlj6Zz95RhMoe1zjKsEulR5Tvh~TPJ~K5i47xpEBe5NZYmJ5s2X7S7S-YPHTCt3wpfQz3h11vdmSkuJnJiqg4JBhN6DGri~rLx3n-sMiRLAXB6q~dnNsnHu5OH19g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <img width={'100%'} height={'500px'} src={image19} alt="" />
                     </Col>
                     <Col className='bg-dark text-start text-white p-5 m-0'>
                         <div className="our text-start mb-4">Our Design For Your Lifestyle</div>
